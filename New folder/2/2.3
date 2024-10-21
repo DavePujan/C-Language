@@ -1,0 +1,7 @@
+2.3 Identify widely used application which uses Queue data structure for implementation 
+      of its important feature.
+ Ans: The printer spooler manages print jobs sent to the printer. When multiple print requests are made, they are queued up and processed in the order they were received. The queue ensures that print jobs are handled in a first-come, first-served manner, allowing each job to be printed sequentially without conflict.
+How Queue is Used:
+1.	Job Scheduling: Each print job is added to a queue as it is submitted. The spooler maintains this queue to manage the order of print jobs.
+2.	Resource Management: By using a queue, the spooler efficiently manages printer resources and ensures that each job gets printed in the correct sequence.
+3.	Concurrency Handling: The queue allows the system to handle multiple print requests concurrently, without having to immediately process each job as it arrives.
