@@ -1,0 +1,29 @@
+Types:
+
+full or strict binary tree: all nodes have either zero or two child.
+
+perfact binary tree: internal nodes have 2 child + all leaf nodes are on same level.
+
+complete binary tree: all levels are completely filled except possibly the last level + last level must have its keys as left as possible.
+
+degenerate tree: Every parent node has exactly one child.
+
+skewed trees: all child are in left side then its left skewed. and if all child are in right side then right skewed tree.
+
+
+-->Representation of a binary tree
+-array representation
+-linked representation
+
+-->types of traversal:
+-inorder    --> Left, Root, Right
+-preorder   --> Root , left, Right
+-postorder  --> Left, Right, Root
+
+-->BST
+-type of binary tree.
+-all nodes of left subtree are lesser.
+-all nodes of right subtree are greater.
+-left and right subtrees are also BST.
+-there are no duplicate nodes.
+*- inorder traversal of BST give an ascending sorted array.
